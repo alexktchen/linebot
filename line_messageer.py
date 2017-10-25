@@ -45,8 +45,7 @@ def callback():
     type = decoded['events'][0]['source']['type']
     source = decoded['events'][0]['source']
 
-    line_bot_api = LineBotApi(
-        'qH714V34aMKP3EC01eLgdm6OFhMgrsB4eelpLtA/v1eezEkbWXgdpdZ2TKAB3A/Mk612bYDBlDqg0UfyPlMn5PYI69BDNlaZxcrIRxIw4CukracSeMvepg0UekJUmf9+IiqHQfwewwWXKzejZAVypAdB04t89/1O/w1cDnyilFU=')
+    line_bot_api = LineBotApi('')
 
     if message[:1] == 'K':
         Chart(stockNo)
